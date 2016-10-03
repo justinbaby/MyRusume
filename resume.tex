@@ -1,0 +1,89 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{严显敏}
+
+% {E-mail}{mobilephone}{homepage}
+% be careful of _ in emaill address
+\contactInfo{justinbelieveyou@gmail.com}{(+86) 156-4364-5806}{ https://justinbaby.github.io}
+% {E-mail}{mobilephone}
+% keep the last empty braces!
+%\contactInfo{xxx@gmail.com}{(+86) 156-4364-5806}{}
+
+
+\section{\faInfo\ 个人信息}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 姓名: 严显敏
+  \item 性别: 男
+  \item 籍贯: 江西上饶
+  \item 出生年月: 1994.12.26
+\end{itemize}
+
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{吉林工程技术师范学院}, 长春}{2013 -- 至今}
+\textit{学士}\ 软件工程, 预计 2017 年 6 月毕业
+
+\section{\faUsers\ 实习/项目经历}
+\datedsubsection{\textbf{鹏博士集团} -北京}{2016年7月 -- 2016年9月}
+\role{实习}{经理: 刘 春}
+JAVA后端开发
+\begin{itemize}
+  \item 学习帐管业务
+  \item 改BUG
+  \item 写接口
+\end{itemize}
+
+\datedsubsection{\textbf{github个人博客}}{2015年10月 -- 至今}
+\role{开发}{搭建个人博客，记录生活点滴}
+\begin{onehalfspacing}
+个人博客 https://justinbaby.github.io
+\begin{itemize}
+    \item 增长见识，学习代码
+\end{itemize}
+\end{onehalfspacing}
+
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+\section{\faCogs\ IT 技能}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 编程语言: C, Java
+  \item 平台: Linux
+  \item 数据库: Mysql
+\end{itemize}
+
+\section{\faHeartO\ 获奖情况}
+\datedline{\textit{二等奖}, ACM吉林大学生程序设计竞赛}{2015年9 月}
+\datedline{\textit{二等奖}, 吉林大学生数学建模竞赛}{2015年9 月}
+\datedline{\textit{三等奖学金}, 校三等奖学金}{2014年9 月}
+
+\section{\faInfo\ 其他}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item CSDN博客: http://blog.csdn.net/yzllz001
+  \item GitHub: https://github.com/justinbaby
+  \item 语言: 英语 - 四级
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
